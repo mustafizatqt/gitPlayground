@@ -40,3 +40,6 @@ def qs(li,st,en):
 li = [2,4,6,1,3,7]
 qs(li,0,len(li)-1)
 print(li)
+
+
+#nre ksdvnl
