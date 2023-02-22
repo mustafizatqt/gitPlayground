@@ -1,21 +1,3 @@
-# def quicksort(li,st,en):
-#     piv = st+(en-st)//2
-#     r=en
-#     l = st
-#     while(st<en):
-#         while(li[st]<li[piv] and st<en):
-#             st+=1
-#         while(en>st and li[piv]<li[en]):
-#             en-=1
-#         li[st]^=li[en]
-#         li[en]^=li[st]
-#         li[st]^=li[en]
-#     quicksort(li,l,en-1)
-#     quicksort(li,en+1,r)
-# li = [2,4,6,1,3,7]
-# quicksort(li,0,len(li)-1)
-# print(li)
-
 def partition(li,st,en):
     pivot = li[st]
     low = st+1
